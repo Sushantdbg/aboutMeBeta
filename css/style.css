@@ -3,22 +3,23 @@
 body {
   margin: 0;
   text-align: center;
-  background-color: white;
+  background-color: #F0F0F0;
   font-family: 'Rubik', sans-serif;
-  /* WARNING: experimental code below */
 }
+
 hr {
-    border-style: dotted none none none;
-    -webkit-border-top-style: dotted;
-    border-color: black;
-    border-width: 1rem;
-    width: 15%;
-    text-align: center;
+  border-style: dotted none none none;
+  -webkit-border-top-style: dotted;
+  border-color: black;
+  border-width: 1rem;
+  width: 15%;
+  margin: auto;
+  padding-bottom: 3rem;
 }
 
 /* WARNING: For "top" div */
 .top {
-  background-color: white;
+  background-color: #F0F0F0;
   position: relative;
   padding-top: 8rem;
   height: 50rem;
@@ -155,23 +156,28 @@ h3 {
   float: right;
   margin-left: 1.5rem;
 }
-.epic-button{
+
+.epic-button {
   height: 5rem;
   width: 5rem;
   border-radius: 1.4rem;
   text-align: right;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
-/* WARNING: For class contact-me */
-/* WARNING: For class bottom container */
 
-.social{
+/* WARNING: For class bottom container */
+.bottom-container {
+  background-color: #C0C0C0;
+}
+
+.social {
   height: 5rem;
   width: 5rem;
   border-radius: 1.4rem;
   margin: 2rem 1rem 2rem 1rem;
 }
-.copyright{
+
+.copyright {
   font-size: .7rem;
   margin-bottom: 1rem;
 }
