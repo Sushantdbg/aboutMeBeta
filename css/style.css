@@ -3,13 +3,22 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: cursive;
+  background-color: white;
   font-family: 'Rubik', sans-serif;
+  /* WARNING: experimental code below */
+}
+hr {
+    border-style: dotted none none none;
+    -webkit-border-top-style: dotted;
+    border-color: black;
+    border-width: 1rem;
+    width: 15%;
+    text-align: center;
 }
 
 /* WARNING: For "top" div */
 .top {
-  background-color: #E4D8DC;
+  background-color: white;
   position: relative;
   padding-top: 8rem;
   height: 50rem;
@@ -31,7 +40,7 @@ h1 {
 .clock {
   padding-top: 4.7rem;
   padding-bottom: 4.7rem;
-  margin-top: 11rem;
+  margin-top: 12rem;
   border-radius: 3.5rem;
 }
 
@@ -50,10 +59,12 @@ h1 {
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
-.emoji{
+
+.emoji {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
 .all {
   font-family: 'WindSong', cursive;
   font-weight: bold;
@@ -63,24 +74,104 @@ h1 {
 .hello {
   padding-top: 2rem;
   font-family: 'Cabin Sketch', cursive;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
-.info{
+
+.info {
   font-size: 1.3rem;
   padding-bottom: 0;
 }
-.aAll{
+
+.aAll {
   padding-bottom: 5rem;
   font-size: 1.3rem;
 }
 
+/* WARNING: For class skills */
+h3 {
+  font-size: 2.5rem;
+}
+
+.myskills {
+  font-weight: bold;
+  font-size: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 0;
+}
+
 .skill-row {
   position: relative;
-  margin: 100px auto 100px auto;
+  margin: 10rem auto 10rem auto;
+  margin-bottom: 10rem;
   width: 80%;
   text-align: left;
 }
 
-/* WARNING: For class skills */
+.web-para {
+  text-align: left;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+.ios-para {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+.it-patra {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+.os-para {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+.webpic {
+  height: 12.5rem;
+  width: 12.5rem;
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.iospic {
+  height: 13.3rem;
+  width: 13.3rem;
+  float: right;
+  margin-left: 1.5rem;
+}
+
+.itpic {
+  height: 13.3rem;
+  width: 13.3rem;
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.ospic {
+  height: 13.3rem;
+  width: 13.3rem;
+  float: right;
+  margin-left: 1.5rem;
+}
+.epic-button{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 1.4rem;
+  text-align: right;
+  margin-bottom: 1rem;
+}
 /* WARNING: For class contact-me */
 /* WARNING: For class bottom container */
+
+.social{
+  height: 5rem;
+  width: 5rem;
+  border-radius: 1.4rem;
+  margin: 2rem 1rem 2rem 1rem;
+}
+.copyright{
+  font-size: .7rem;
+  margin-bottom: 1rem;
+}
