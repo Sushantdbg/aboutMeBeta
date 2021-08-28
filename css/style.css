@@ -115,16 +115,19 @@ h3 {
 }
 
 .ios-para {
+  text-align: left;
   line-height: 1.2;
   font-size: 2rem;
 }
 
-.it-patra {
+.it-para {
+  text-align: left;
   line-height: 1.2;
   font-size: 2rem;
 }
 
 .os-para {
+  text-align: left;
   line-height: 1.2;
   font-size: 2rem;
 }
